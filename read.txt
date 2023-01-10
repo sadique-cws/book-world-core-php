@@ -1,0 +1,24 @@
+database - book_world
+
+tables
+1. categories
+    1. cat_id, cat_title
+
+2. books
+    1. id, title, author, nop, isbn, description, category, cover, status=1, mrp, discount_price
+
+
+-------------------- done----------------------------
+files
+1. index.php (landing page)
+2. view.php (single book view)
+3. login.php
+4. logout.php
+5. register.php
+6. forget_password.php
+
+
+include 
+1. db.php (connection and function)
+2. header.php
+3. footer.php
