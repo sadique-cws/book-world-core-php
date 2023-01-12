@@ -50,6 +50,9 @@
                     <span class="text-xl text-green-700 font-semibold">Rs. <?= $row['discount_price']; ?></span>
                     <span class="text-sm"><del>Rs. <?= $row['mrp']; ?></del></span>
                   </div>
+                  <div class="flex space-x-2 justify-center mt-2">
+  <a href="view_books.php?id=<?= $row['id'];?>" class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">View Book</a>
+</div>
                 </div>
               </div>
             <?php endwhile; ?>
